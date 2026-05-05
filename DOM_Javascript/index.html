@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /**let nombre=prompt("Cúal es tu nombre? ");
+        let apellido=prompt("Cúal es tu apellido? ");
+        let edad=parseInt(prompt("Cúal es su edad?: "));
+        let vida=parseInt(prompt("Edad de vida a los que desea llegar: "));
+        document.write(nombre);
+        document.write("<br>"); //Salto de linea
+        document.write(apellido);
+        document.write("<br>");
+        document.write(edad);
+        document.write("<br>");
+        document.write("Los años que le faltan por vivir son ", vida - edad, " años");
+        
+        let valor=parseInt(prompt("Ingrese un número entre 1 y 5?: "));
+
+        switch (valor){
+            case 1:
+            document.write("El número uno")
+                break;
+            case 2:
+            document.write("El número dos")
+                break;
+            case 3:
+            document.write("El número tres")
+                break;
+            case 4:
+            document.write("El número cuatro")
+                break;
+            case 5:
+            document.write("El número cinco")
+                break;
+            default:
+            document.write("Error, no está en los parametros")
+        let valor=parseInt(prompt("Ingrese un número entre 1 y 5?: "));
+
+        let dia=parseInt(prompt("Ingrese un número entre 1 y 7 para elegir un día de la semana: "));
+        switch (dia){
+            case 1:
+            document.write("El número uno es el día lunes")
+                break;
+            case 2:
+            document.write("El número dos es el día martes")
+                break;
+            case 3:
+            document.write("El número tres es el día miercoles")
+                break;
+            case 4:
+            document.write("El número cuatro es el día jueves")
+                break;
+            case 5:
+            document.write("El número cinco es el día viernes")
+                break;
+            case 6:
+            document.write("El número cinco es el día sabado")
+                break;
+            case 7:
+            document.write("El número cincoes el día domingo")
+                break;
+            default:
+            document.write("Error, número mayor a días de la semana")
+                break;
+        }*/
+
+        //Objeto
+        /**let perro={
+            nombre: "Firulais",
+            edad:5,
+            raza:"labrador",
+
+            ladrar: function(){
+                document.write("GUUUUUUUUAAAAAAUUUUUUUUUUU");
+            }
+        };
+        document.write("El nombre del perro es " + perro.nombre + "<br>");
+        document.write("El nombre del perro es " + perro.edad + "<br>");
+        perro.ladrar()*/
+
+        //Propiedades del o los perros
+        /**class perro {
+            constructor(nombre, raza, edad){
+                this.nombre=nombre;
+                this.raza=raza;
+                this.edad=edad;
+            }
+
+            ladrar(){
+                document.write(`${this.nombre} está ladrando. <br>`);
+            }}
+
+            let miPerro=new perro("Rex","Labrador",5);
+            let otroPerro=new perro("Max","Bulldog",3);
+
+            document.write("Mi perro se llama ${miPerro.nombre}, es un ${miPerro.raza} y tiene ${miPerro.edad} años de edad");
+            document.write("Otro perro se llama ${otroPerro.nombre}, es un ${otroPerro.raza} y tiene ${otroPerro.edad} años de edad");
+            miPerro.ladrar();
+            otroPerro.ladrar();*/
+
+            /**class estudiante {
+                constructor(nombre, edad, curso) {
+                    this.nombre = nombre;
+                    this.edad = edad;
+                    this.curso = curso;
+                }
+            };
+            let id = prompt("Nombre del estudiante: ");
+            let aprendiz = new estudiante(id, 19, "ADSO18")
+            document.write(`${aprendiz.nombre} de ${aprendiz.edad} años de edad y del ${aprendiz.curso} dice hola`);
+            document.write();*/
+            
+
+
+
+        class calculo {
+            suma(a,b){
+                return (a + b)
+            };
+        };
+        let a=new calculo(parseInt(prompt("Digite primer valor a sumar: ")));
+        let b=new calculo(parseInt(prompt("Digite segundo valor a sumar: ")));
+        let respuesta=new calculo.suma(a,b);
+        document.write(respuesta)
+        calculo.suma(a,b);
+    </script>
+</body>
+
+</html>
